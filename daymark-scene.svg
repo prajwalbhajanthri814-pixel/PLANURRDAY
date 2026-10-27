@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 650" fill="none">
+  <defs>
+    <linearGradient id="back" x1="100" y1="80" x2="660" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#F0F4DF"/><stop offset=".5" stop-color="#DCEBDD"/><stop offset="1" stop-color="#B8D7C1"/></linearGradient>
+    <linearGradient id="card" x1="286" y1="144" x2="605" y2="442" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFDF7"/><stop offset="1" stop-color="#F2F1E8"/></linearGradient>
+    <linearGradient id="shirt" x1="299" y1="363" x2="465" y2="552" gradientUnits="userSpaceOnUse"><stop stop-color="#86A88B"/><stop offset="1" stop-color="#426C53"/></linearGradient>
+    <linearGradient id="skin" x1="344" y1="222" x2="430" y2="358" gradientUnits="userSpaceOnUse"><stop stop-color="#F4C4A1"/><stop offset="1" stop-color="#D99170"/></linearGradient>
+    <linearGradient id="pot" x1="94" y1="409" x2="196" y2="518" gradientUnits="userSpaceOnUse"><stop stop-color="#E9AA83"/><stop offset="1" stop-color="#B96D56"/></linearGradient>
+    <filter id="shadow" x="150" y="82" width="500" height="504" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="17"/></filter>
+    <filter id="soft" x="0" y="0" width="760" height="650" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <ellipse cx="394" cy="519" rx="268" ry="73" fill="#688B70" opacity=".16" filter="url(#soft)"/>
+  <circle cx="419" cy="313" r="227" fill="url(#back)"/>
+  <circle cx="562" cy="143" r="38" fill="#FFF8D8" opacity=".92"/>
+  <path d="M556 124v38M537 143h38M543 130l26 26M569 130l-26 26" stroke="#D2AA63" stroke-width="2.2" stroke-linecap="round" opacity=".72"/>
+  <ellipse cx="392" cy="525" rx="200" ry="38" fill="#5D8166" opacity=".17" filter="url(#shadow)"/>
+  <!-- Floating weekly planner -->
+  <g transform="rotate(-7 209 277)">
+    <rect x="84" y="166" width="233" height="250" rx="25" fill="#345A43" opacity=".13"/>
+    <rect x="75" y="153" width="233" height="250" rx="25" fill="#FFFEF9"/>
+    <rect x="75" y="153" width="233" height="67" rx="25" fill="#365C45"/>
+    <path d="M75 194h233v27H75z" fill="#365C45"/>
+    <text x="101" y="186" fill="#EDF4E7" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">YOUR WEEK</text>
+    <text x="101" y="250" fill="#738274" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">MONDAY</text>
+    <rect x="101" y="265" width="177" height="35" rx="11" fill="#EEF3E8"/><circle cx="119" cy="282" r="7" fill="#93BA87"/><path d="m116 282 2 2 4-5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="135" y="278" width="91" height="6" rx="3" fill="#9CAA98"/>
+    <rect x="101" y="311" width="177" height="35" rx="11" fill="#F8EEE6"/><circle cx="119" cy="328" r="7" fill="#E3AA83"/><path d="m116 328 2 2 4-5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="135" y="324" width="119" height="6" rx="3" fill="#BCAA9B"/>
+    <rect x="101" y="357" width="177" height="23" rx="8" fill="#F1F1E9"/><rect x="114" y="366" width="85" height="5" rx="2.5" fill="#CED6C9"/>
+    <circle cx="128" cy="153" r="6" fill="#E6C98E"/><circle cx="255" cy="153" r="6" fill="#E6C98E"/>
+  </g>
+  <!-- Warm glowing halo behind the planner companion -->
+  <circle cx="408" cy="321" r="159" fill="#D7E8C7" opacity=".46"/>
+  <path d="M298 504c10-77 57-126 110-126s102 48 112 126v33H298v-33Z" fill="url(#shirt)"/>
+  <path d="M369 370c7 18 19 30 39 30 19 0 31-12 39-30v-29h-78v29Z" fill="#D98F70"/>
+  <ellipse cx="408" cy="291" rx="75" ry="89" fill="url(#skin)"/>
+  <!-- Hair, sculpted in layered shapes for a soft 3-D mascot look -->
+  <path d="M332 288c-8-79 35-117 82-117 51 0 82 39 74 111-13-14-21-30-24-48-15 19-50 33-100 33-5 0-14 11-22 21l-10 0Z" fill="#483D36"/>
+  <path d="M344 236c19-39 62-48 99-35 16 6 29 19 38 37-28-12-53-26-67-45-17 26-40 42-70 43Z" fill="#69564A" opacity=".72"/>
+  <path d="M364 297c7-6 17-6 24 0M429 297c7-6 17-6 24 0" stroke="#684A3E" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="377" cy="311" rx="4" ry="5" fill="#392F2B"/><ellipse cx="441" cy="311" rx="4" ry="5" fill="#392F2B"/>
+  <path d="M397 343c9 8 21 8 30 0" stroke="#A85F55" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="355" cy="325" r="10" fill="#E7A38B" opacity=".43"/><circle cx="463" cy="325" r="10" fill="#E7A38B" opacity=".43"/>
+  <path d="M391 386c5 19 11 28 19 28s15-9 20-28l-20 10-19-10Z" fill="#F7EBD6"/>
+  <path d="M355 410c20 23 38 34 53 34s33-11 53-34" stroke="#67886A" stroke-width="4" opacity=".62"/>
+  <!-- Potted plant and leaves -->
+  <path d="M135 445c-2-41-17-64-42-74 1 27 12 50 42 74Z" fill="#719B70"/>
+  <path d="M139 443c-4-52 7-83 35-104 5 37-5 70-35 104Z" fill="#8EB581"/>
+  <path d="M141 444c12-51 35-76 70-82-12 38-35 65-70 82Z" fill="#5E8963"/>
+  <path d="M140 446c-23-33-29-63-18-92 23 27 30 57 18 92Z" fill="#A6C58E"/>
+  <path d="M104 443h78l-10 65a15 15 0 0 1-15 13h-28a15 15 0 0 1-15-13l-10-65Z" fill="url(#pot)"/>
+  <ellipse cx="143" cy="444" rx="40" ry="11" fill="#D68F6C"/>
+  <path d="M136 482c4 9 8 15 8 15" stroke="#F3C2A2" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <!-- Glowing star flecks -->
+  <path d="m620 341 5 12 12 5-12 5-5 12-5-12-12-5 12-5 5-12Z" fill="#E9B96F" opacity=".85"/>
+  <path d="m254 470 3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#F4D189"/>
+  <circle cx="572" cy="430" r="5" fill="#FFF8D8"/><circle cx="250" cy="129" r="5" fill="#FFF8D8"/>
+</svg>
